@@ -1,6 +1,6 @@
 import express from "express";
 import accountController from "./controllers/accounts.js"
-import StoreController from './controllers/accounts.js'
+import StoreController from './controllers/store.js';
 import database from './services/database.js'
 
 
