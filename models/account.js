@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
 import database from "../services/database.js";
-import sequelize from "../services/database.js";
+
 
 const Account = database.define("account",{
     id:{
@@ -23,4 +23,4 @@ const Account = database.define("account",{
     isLocked:Sequelize.BOOLEAN
 });
 
-export default Account;
+export default Account; 
