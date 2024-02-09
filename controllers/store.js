@@ -9,7 +9,7 @@ router.post('/createCategory',(req,res)=>{
     Category.create({
         categoryName:categoryName,
         categoryDesc:categoryDesc,
-        categoryImage: categoryImage
+        categoryImage:categoryImage
     })
     .then(results =>{
         return res.status(200).json({message: 'Category saved'})
